@@ -7,14 +7,14 @@
 include("Common.lua")
 include("Hook.lua")
 
--- 常量定义 ----------------------------------------------------
+-- 甯搁噺瀹氫箟 ----------------------------------------------------
 
 local ControlPaths = {
     GOVERNMENT_SCREEN = "/InGame/Screens/GovernmentScreen",
     CONFIRM_BUTTON    = "/InGame/Screens/GovernmentScreen/[2]/[1]/MainContainer/AlphaAnim/RowAnim/PolicyTabStack/PoliciesContainer/ConfirmPolicies"
 }
 
--- 函数定义 ----------------------------------------------------
+-- 鍑芥暟瀹氫箟 ----------------------------------------------------
 
 function OnGovernmentScreenShown()
     local confirmButton = FindFirstControl(ControlPaths.CONFIRM_BUTTON)
@@ -43,7 +43,7 @@ local function OnLoadGameViewStateDone()
     end
 end
 
--- 事件注册 ----------------------------------------------------
+-- 浜嬩欢娉ㄥ唽 ----------------------------------------------------
 
 Events.LoadGameViewStateDone.Add(OnLoadGameViewStateDone)
 

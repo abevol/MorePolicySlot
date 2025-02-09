@@ -1,0 +1,18 @@
+<LocalizedText>
+  <Text id="LOC_MorePolicySlot_Name">
+    <en_US>More Policy Slot Improved</en_US>
+    <zh_Hans_CN>更多政策槽（改进版）</zh_Hans_CN>
+  </Text>
+  <Text id="LOC_MorePolicySlot_Teaser">
+    <en_US>An improved version of More Policy Slot.</en_US>
+    <zh_Hans_CN>更多政策槽的改进版本。</zh_Hans_CN>
+  </Text>
+  <Text id="LOC_MorePolicySlot_Description">
+    <en_US>An improved version of More Policy Slot. [NEWLINE][NEWLINE]· Each policy slot increases by 15.[NEWLINE]· No need to fill the remaining slots with blank policy cards.[NEWLINE]· The gray policy confirm button will become available when the mouse hovers over it.</en_US>
+    <zh_Hans_CN>更多政策槽的改进版本。[NEWLINE][NEWLINE]· 每种政策槽增加15个。[NEWLINE]· 无需用空白政策卡填充剩余卡槽。[NEWLINE]· 灰色的政策确认按钮会在鼠标移入时变为可用。</zh_Hans_CN>
+  </Text>
+  <Text id="LOC_MorePolicySlot_Special_Thanks">
+    <en_US>启悟</en_US>
+    <zh_Hans_CN>启悟</zh_Hans_CN>
+  </Text>
+</LocalizedText>

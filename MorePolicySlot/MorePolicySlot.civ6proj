@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_MorePolicySlot_Name</Name>
+    <Guid>1f2afdc1-aebc-4673-8f9e-6c4e7958cc00</Guid>
+    <ProjectGuid>2bfe4a71-facd-456c-bab4-8b19fb4b6e75</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>LOC_MorePolicySlot_Teaser</Teaser>
+    <Description>LOC_MorePolicySlot_Description</Description>
+    <Authors>abevol</Authors>
+    <SpecialThanks>LOC_MorePolicySlot_Special_Thanks</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations />]]></AssociationData>
+    <AssemblyName>MorePolicySlot</AssemblyName>
+    <RootNamespace>MorePolicySlot</RootNamespace>
+    <ModProperties>
+      <CustomProperties />
+    </ModProperties>
+    <FrontEndActionData><![CDATA[<FrontEndActions />]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="add_Policy_card_slot_plus"><File>add_plot.sql</File></UpdateDatabase><AddUserInterfaces id="MorePolicySlot_Scripts"><Properties><Context>InGame</Context><LoadOrder>10000</LoadOrder></Properties><File>MorePolicySlot.xml</File></AddUserInterfaces><ImportFiles id="MorePolicySlot_ImportFiles"><Properties><LoadOrder>160000</LoadOrder></Properties><File>Common.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <Homepage>https://github.com/abevol/MorePolicySlot</Homepage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="add_plot.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Common.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MorePolicySlot.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MorePolicySlot.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
